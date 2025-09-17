@@ -1,5 +1,8 @@
 # Comick Recommendations
 
+> **⚠️ ARCHIVED PROJECT ⚠️**  
+> This project is no longer functional as **Comick.io has been shut down**. This repository is kept for archival purposes and code reference only.
+
 A Next.js application that uses the Comick.io API to generate recommendations for a user based on the recommendations of the comics they read.
 
 ## Getting Started
