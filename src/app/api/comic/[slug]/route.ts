@@ -6,7 +6,7 @@ export async function GET(
 ) {
   try {
     const response = await fetch(
-      `https://api.comick.fun/comic/${params.slug}/?tachiyomi=true`,
+      `https://api.comick.dev/comic/${params.slug}/?tachiyomi=true`,
       {
         headers: {
           "User-Agent": "ComickRecommendations/1.0",

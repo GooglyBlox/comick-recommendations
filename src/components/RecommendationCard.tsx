@@ -46,7 +46,7 @@ export default function RecommendationCard({
         </h3>
 
         <a
-          href={`https://comick.io/comic/${recommendation.slug}`}
+          href={`https://comick.dev/comic/${recommendation.slug}`}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center text-sm text-[#9ca3af] hover:text-white transition-all duration-200 group/link relative"

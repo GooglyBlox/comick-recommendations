@@ -85,7 +85,7 @@ export default function Home() {
                   type="text"
                   value={userInput}
                   onChange={(e) => setUserInput(e.target.value)}
-                  placeholder="https://comick.io/user/your-id/list"
+                  placeholder="https://comick.dev/user/your-id/list"
                   className="input w-full text-lg"
                   disabled={loading}
                 />

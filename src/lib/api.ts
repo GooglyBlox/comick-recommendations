@@ -54,8 +54,8 @@ const fetcher = new RateLimitedFetcher(8);
 export function extractUserIdFromInput(input: string): string {
   const trimmed = input.trim();
 
-  if (trimmed.includes("comick.io/user/")) {
-    const match = trimmed.match(/comick\.io\/user\/([a-f0-9-]+)/);
+  if (trimmed.includes("comick.dev/user/")) {
+    const match = trimmed.match(/comick\.dev\/user\/([a-f0-9-]+)/);
     return match ? match[1] : trimmed;
   }
 
